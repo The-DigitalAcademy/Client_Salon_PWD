@@ -1,0 +1,124 @@
+
+  .landing-page{
+    width: 400px;
+    height: 358px;
+    text-align: center;
+    margin-top: -520px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .head{
+    margin-top: 150px;
+  }
+  
+  /* Center align content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D1C8BD;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Style for the container */
+  .container {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #D1C8BD;
+    justify-items: normal;
+    
+  }
+  
+  /* Style for the logo */
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+    float: right;
+    margin-right: 40px;
+  }
+
+  .Hair{
+    border-radius: 100%;
+    float: left;
+    margin-left: 0.9%;
+  }
+
+  .Nails{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-right: 0.10%;
+    
+   
+  }
+
+  .Spar{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-right: 0.20%;
+    
+  }
+
+  .Facial{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 0.30%;
+   
+  }
+  
+  /* Styles for desktop screens */
+@media (min-width: 797px) {
+    /* Desktop-specific styles */
+  }
+  
+  /* Styles for tablet screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Tablet-specific styles */
+  }
+  
+  /* Styles for mobile screens */
+  @media (max-width: 757px) {
+    
+   
+    /* Mobile-specific styles */
+    .landing-page{
+        margin-top: 700px;
+        width: 500px;
+        height: 358px;
+        text-align: center;
+        margin-top: -520px;
+        border-radius: 20px;
+        background-color: white;
+        
+    }
+
+  }
+        
+      /* Style for the logo */
+      .logo {
+        width: 20px;
+        height: 20px;
+        justify-items: right;
+        margin-right: -300px;
+       
+      }
+
+      
+  
+      /* Style for the heading */
+      h1 {
+        font-size: 24px;
+        
+      }
+  
+      /* Style for the subheading */
+      p {
+        font-size: 14px;
+      }
+  
