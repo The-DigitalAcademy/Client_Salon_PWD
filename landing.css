@@ -3,16 +3,16 @@
     width: 400px;
     height: 358px;
     text-align: center;
-    margin-top: -520px;
+    margin-top: -510px;
     border-radius: 20px;
     background-color: white;
   }
 
   .head{
-    margin-top: 150px;
+    margin-top: 110px;
   }
   
-  /* Center align content */
+ 
   body {
     display: flex;
     justify-content: center;
@@ -22,38 +22,69 @@
     font-family: Arial, sans-serif;
     
   }
-  
-  /* Style for the container */
+
   .container {
-    text-align: center;
     margin-top: 100px;
     background-color: #D1C8BD;
-    justify-items: normal;
-    
-  }
-  
-  /* Style for the logo */
+    text-align: center;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.category img {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.category span {
+    display: block;
+}
+
+
   .logo {
     width: 60px;
     height: 60px;
-    margin-top: 40px;
+    margin-top: 80px;
     float: right;
-    margin-right: 40px;
+   margin-left: 350px;
   }
 
   .Hair{
     border-radius: 100%;
-    float: left;
     margin-left: 0.9%;
+    margin:5px;
+    display: inline-block;
+    
   }
+  .Hair,.hairtext{
+    display: inline-block;
+    ruby-align: space-between;
+   ruby-align: space-around;
+   ruby-align: auto;
+  }
+  
 
   .Nails{
     border-radius: 100%;
     height: 50px;
     width: 50px;
     margin-right: 0.10%;
+    margin:1px;
+    display: inline-block;
+  }
     
-   
+   .Nails,.nailtext{
+    display: inline-block;
+    ruby-align: space-between;
+   ruby-align: space-around;
+   ruby-align: auto;
+  
   }
 
   .Spar{
@@ -61,39 +92,54 @@
     height: 50px;
     width: 50px;
     margin-right: 0.20%;
-    
+    margin: 5px;
+    display: inline-block;
+   
   }
 
+.Spar,.spartext{
+    display: inline-block;
+    ruby-align: space-between;
+   ruby-align: space-around;
+   ruby-align: auto;
+
+    
+}
   .Facial{
     border-radius: 100%;
     height: 50px;
     width: 50px;
     margin-left: 0.30%;
-   
-  }
+    margin:5px;
+    display: inline-block;
   
-  /* Styles for desktop screens */
-@media (min-width: 797px) {
-    /* Desktop-specific styles */
   }
-  
-  /* Styles for tablet screens */
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* Tablet-specific styles */
+  .Facial,.facialtext{
+    display: inline-block;
+    ruby-align: space-between;
+   ruby-align: space-around;
+   ruby-align: auto;
   }
   
   /* Styles for mobile screens */
-  @media (max-width: 757px) {
+  @media (max-width: 797px) {
     
    
     /* Mobile-specific styles */
     .landing-page{
-        margin-top: 700px;
-        width: 500px;
+        margin-top: -665px;
+        width: 900px;
+        background-size: cover;
+        background-position: absolute;
         height: 358px;
         text-align: center;
-        margin-top: -520px;
-        border-radius: 20px;
+        margin-left: -7px;
+        margin-right: -7px;
+        padding-left: auto;
+        padding-right: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
         background-color: white;
         
     }
@@ -101,14 +147,6 @@
   }
         
       /* Style for the logo */
-      .logo {
-        width: 20px;
-        height: 20px;
-        justify-items: right;
-        margin-right: -300px;
-       
-      }
-
       
   
       /* Style for the heading */
@@ -121,4 +159,35 @@
       p {
         font-size: 14px;
       }
+
+      .Salon1{
+        margin-left: 0.40%;
+        margin:5px;
+        display: inline-block;
+      }
+
+      .Salon1text{
+        display: inline-block;
+        ruby-align: space-between;
+        ruby-align: space-around;
+        ruby-align: auto;
+      }
+
+      .Salon2{
+        margin-left: 0.40%;
+        margin:5px;
+      
+        display: inline-block;
+      }
+
+      .Salon2text{
+        display: inline-block;
+        ruby-align: space-between;
+        ruby-align: space-around;
+        ruby-align: auto;
+      }
+
+
+
+      
   
