@@ -1,85 +1,130 @@
-.container{
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #D1C8BD;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-    height: 500px;
-    border-radius: 20px;
-    margin-top: 150px;
-    display: inline-block;
-    
-
+body{
+    background-color: #d2d1cf;
 }
 
+
 .navbar{
-    background-color: #d2d1cf;
-    height: 300px;
+    background-color: rgba(240, 240, 240);
+    height: 200px;
     width: 100%;
+    margin: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    font-style: oblique;
     border-radius: 40px;
 }
 
+
+
+
 .logo{
     float: right;
-    width: 50px;
-    margin-right: 75px;
-    margin-top: 40px;
-}
-   
-
-.category{
-    display: inline-block;
-  
-
+    margin-right: 40px;
 }
 
-.Hair{
- 
-    margin-left: -100px;
-    height: 60px;
-    width: 60px;
-    display:inline-block
+.item2{
+    margin-top: 70px;
+    padding: none;
 }
 
-.Nails {
+.item1{
+   margin-top: 30px;
 
-    margin-left: 90px; 
-    height: 60px;
-    width: 60px;
-    margin-top: -30px;
-    display:inline-block
 }
 
-.Spar{
-    
-    margin-left: 180px; 
-    height: 60px;
-    width: 60px;
-    margin-top: -61px;
-    display:inline-block
-}
-
-.Facial{
- 
-    margin-left: 290px; 
-    height: 60px;
-    width: 60px;
-    margin-top: -86px;
-    display:inline-block
-}
-
-img {
-    border-radius: 100%
-}
-
-.landing-page{
+.paragraph1{
     text-align: center;
-    display: inline-block;
-    margin-left: -7px;
-    margin-right: -7px;
-    justify-items: center;  
+}
+
+.container .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -70px;
+  margin-right: -70px;
+  gap: 10%;
+
+}
+
+.card-img-top{
+    background-color: black;
+}
+
+.card-text{
+    margin-left: 9px;
+   
+}
+
+.card1{
+    width: 39px;
+    background-color: black;
+    align-self: center;
+    
+}
+
+.card2{
+    background-color: black;
+}
+
+.paragraph2{
+    text-align: center;
+}
+
+.container1 .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    gap: 15%; 
+  
+}
+
+.salon1{
+    width: 80px;
+}
+
+.salon2{
+    width: 80px;
+    
+}
+
+.salon3{
+    width: 80px;
+}
+
+.salon4{
+    width: 80px;
+    margin-top: 200px;
+    margin-left: -344px;
+  
+}
+
+.text1{
+    float: left;
+    margin-left: -347px;
+}
+
+.salon5{
+    width: 80px;
+    margin-top: 200px;
+    margin-left: -344px;
+}
+
+.text2{
+    float: left;
+    margin-left: -360px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.salon6{
+    width: 80px;
+    margin-top: 200px;
+    margin-left: -344px;
 }
 
 
-
-  
