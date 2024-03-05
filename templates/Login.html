@@ -2,17 +2,19 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="/static/Login.css">
+  <title>html button</title>
 </head>
 <body>
    <div>
+
     <nav class="navbar sticky-top bg-body-tertiary ">
         <div class="container-fluid">
           
-            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <span class="icon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  align-items: center; fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
               </svg></span>
            
-              <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+              <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
               </svg></span>
         </div>
@@ -21,7 +23,7 @@
     
     <center><img src="/Group_2.png" alt=""></center>
     <h1>Login</h1>
-    <form>
+    <form action="app.py" method="post">
     <center><label for="username" >Username</label></center><br>
       <center><input type="text" id="username" name="username" required></center>
       
@@ -31,7 +33,11 @@
      
       
       <center><input type="submit" value="Login"></center>
-      <p class="Signup">DONT HAVE AN ACCOUNT? SIGNUP</p>
+    
+      
+      <p class="Signup">DONT HAVE AN ACCOUNT? <a href="/signup">
+        <button>SIGNUP</button>
+      </a></p>
     </form>
 <!-- </div> -->
 </body>

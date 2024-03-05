@@ -3,9 +3,10 @@ body {
     background-color: #D1C8BD;
     margin: 0;
     padding: 0;
+    height: 80px;
 }
 
-.container {
+/* .container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -14,12 +15,13 @@ body {
     height: 500px;
     border-radius: 20px;
     margin-top: 150px;
-}
+} */
 
 .navbar {
-    background-color: #d2d1cf;
+    background-color: #D9D9D9;
     height: 80px;
     width: 100%;
+    padding: 5px;
 }
 
 .Signup {
@@ -69,4 +71,19 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     /* background-color: #837C6A; */
+}
+
+.icon{
+    float: right;
+    margin-top: 40px;
+  margin-right: 50px;
+}
+.icon1{
+    margin-top: 40px;
+    float: left;
+    margin-left: 30px;
+}
+.btn{
+    background:#D9D9D9 ;
+    align-content: center;
 }
