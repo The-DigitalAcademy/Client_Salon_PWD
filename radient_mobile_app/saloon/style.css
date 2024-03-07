@@ -107,7 +107,7 @@ nav button {
 }
 
 .category {
-    margin-top: 2rem;
+    margin-top:.9rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
