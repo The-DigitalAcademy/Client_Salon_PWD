@@ -1,0 +1,81 @@
+/* register.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D1C8BD;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    background: #D1C8BD;
+    height: 390px;
+    opacity: 0.8;
+    padding: 20px;
+    width: 900px;
+    border-radius: 5px;
+  
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #837c6a;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #837c6a;
+}
+
+.sign{
+    text-align: center;
+}
+
+.vertical-center{
+    margin: 4px;
+    position: absolute;
+    margin-right: 7rem;
+   
+  
+    
+}
+
+.paragraph{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.navbar{
+    height: 80px;
+    width: 500px;
+    background-color: #e1e1e1;
+}
+
+.logo{
+   margin-left: 120px;
+   margin-right: 120px;
+   margin-top: -40px;
+   width: 60px;
+  
+ 
+ 
+
+}
