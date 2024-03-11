@@ -120,10 +120,12 @@ img{
 .button container{
     text-align: center;
     margin-right: -50px;
+   
 }
 
 button{
     height: 50px;
-    width: 200px;
+    width: 250px;
     background-color: 837C6A;
+    position: relative;
 }   
