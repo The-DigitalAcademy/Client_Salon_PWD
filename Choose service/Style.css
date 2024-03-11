@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #D1C8BD;
+    background-color: #fefefe;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ body {
     max-width: 200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #D1C8BD;
+    background-color: #f8f4ef;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     height: 300px;
     border-radius: 20px;
@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-    background-color: #d2d1cf;
+    background-color: #f1ede6;
     height: 130px;
     width: 110%;
     display:inline-block;
@@ -26,7 +26,7 @@ body {
 .icon-container {
     width: 100px;  
     height: 70px; 
-    color: rgb(12, 12, 12);   
+    color: 837C6A;   
     position: relative;
     margin-top: -10px;
     margin-right: 100px;
@@ -57,7 +57,7 @@ button {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 2px solid #0b0808;
+    border: 2px solid #eef4f1;
     border-radius: 4px;
 }
 
@@ -98,7 +98,7 @@ img{
     padding: 10px;
     height: 100px;
     width: 90%;
-    background-color: 837C6A;
+    background-color:837C6A ;
     border-radius: 20px;
 }
 
