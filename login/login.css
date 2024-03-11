@@ -1,0 +1,65 @@
+/* login.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1c8bd;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    background: #d1c8bd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #837c6a;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #837c6a;
+}
+.paragraph{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.navbar{
+    height: 80px;
+    width: 500px;
+    background-color: #d9d9d9;
+}
+
+.logo{
+   margin-left: 160px;
+   margin-right: 160px;
+   margin-top: -40px;
+   width: 60px;
+
+
+}
+.login{
+    text-align: center;
+}
