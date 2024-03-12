@@ -3,6 +3,7 @@ body {
     background-color: #fefefe;
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
@@ -98,7 +99,7 @@ img{
     padding: 10px;
     height: 100px;
     width: 90%;
-    background-color:837C6A ;
+    background-color:837C6A;
     border-radius: 20px;
 }
 
@@ -124,8 +125,11 @@ img{
 }
 
 button{
-    height: 50px;
-    width: 250px;
+    height: 90px;
+    width: 700px;
     background-color: 837C6A;
     position: relative;
+    border-radius: 30px;
+    font-size: x-large;
+
 }   
