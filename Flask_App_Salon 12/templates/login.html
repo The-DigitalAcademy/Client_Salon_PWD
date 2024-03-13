@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='login.css') }}"
-    />
+rel="stylesheet"
+      href="{{ url_for('static', filename='login.css') }}"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   
   </head>
   <body>
-    <h1>Login Page</h1>
 
+    <nav class="navbar">
+      <i class="bi bi-chevron-left"></i>
+    </nav>
+    
+    <img  src="{{ url_for('static', filename='/images/Group 2.png') }}"alt="Example Image"/>
     <form
       action="{{ url_for('login.login') }}"
       method="POST"
-      onsubmit="validateLoginForm()"
-    >
+      onsubmit="validateLoginForm()">
+      <h2 class"login">LOG IN</h2>
       <label for="email">Email:</label><br />
       <input type="text" id="email" name="email" required /><br />
       <label for="password">Password:</label><br />
@@ -27,8 +31,10 @@
         name="password"
         required
       /><br /><br />
-      <input type="submit" value="Login" />
-      <p>DONT HAVE AN ACCOUNT? </p>
+      <input type="submit" value="Login" /><br/>
+     
+      <p>DON'T HAVE AN ACCOUNT?    <a href="/signup">Sign Up</a></p>
+  
     </form>
       <script src="{{ url_for('static', filename='validation.js') }}"></script>
 
