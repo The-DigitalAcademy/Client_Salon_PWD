@@ -13,7 +13,7 @@ rel="stylesheet"
   <body>
 
     <nav class="navbar">
-      <i class="bi bi-chevron-left"></i>
+      <i class="bi bi-chevron-left" onclick="goToLandingPage()"></i>
     </nav>
     
     <img  src="{{ url_for('static', filename='/images/Group 2.png') }}"alt="Example Image"/>
@@ -36,8 +36,14 @@ rel="stylesheet"
       <p>DON'T HAVE AN ACCOUNT?    <a href="/signup">Sign Up</a></p>
   
     </form>
+    <script>
+      function goToLandingPage() {
+        // Replace the URL "/landing-page" with the actual URL or route of the landing page
+        window.location.href = "http://127.0.0.1:5000/";
+      }
+    </script>
       <script src="{{ url_for('static', filename='validation.js') }}"></script>
 
-    <!-- <script src="../static/validation.js"></script> -->
+  
   </body>
 </html>
