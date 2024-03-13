@@ -1,0 +1,128 @@
+body{
+    background-color: #D1C8BD;
+    height: 2%;
+}
+
+.navbar {
+  height: 4rem;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.navbar i {
+    font-size: 2rem;
+}
+
+@media (min-width: 978px) { /* Adjust the breakpoint as needed */
+    .navbar {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.logo{
+    float: right;
+    margin-right: 100px;
+    margin-top: 39px;
+}
+
+.icon{
+    float: left;
+    width: 40px;
+    margin-top: 39px;
+    margin-left: 60px;
+    
+}
+
+
+.item2{
+    margin-top: 160px;
+    padding: none;
+}
+
+.item1{
+   margin-top: 30px;
+
+}
+
+.paragraph1{
+    margin-top: -50px;
+    text-align: center;
+}
+
+.container .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -70px;
+  margin-right: -70px;
+  gap: 5%;
+}
+
+.card-img-top{
+    background-color: black;
+    width: 52px;
+}
+
+.card0{
+    background-color: black;
+    width: 55px;
+    margin-left: 20px;
+}
+
+.card-text{
+   font-size: small;
+   font-weight: 100;
+   text-align: center;
+}
+
+.card1{
+    width: 55px;
+    background-color: black;
+    align-self: center;
+    height: 50px;
+
+}
+
+.card2{
+    background-color: black;
+    height: 50px;
+    width: 55px;
+}
+
+
+
+.paragraph2{
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container1 .row {
+    display: flex;
+}
+.container1 .row .col {
+    margin: 0 5px; 
+}
+
+li{
+    float: left;
+ }
+ 
+ 
+
+ 
+
