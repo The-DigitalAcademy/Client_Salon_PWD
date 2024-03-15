@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D1C8BD;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.navbar {
+    background-color: #d2d1cf;
+    height: 80px;
+    width: 100%;
+}
+
+.lumina{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.navbar .img {
+    margin-top: 20px;
+    display: flex;
+    margin-right: 10px;
+    float: right;
+}
+
+.icon{
+    float: left;
+    margin-left: 20px;
+
+}
+
+
+
