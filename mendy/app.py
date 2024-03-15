@@ -1,7 +1,7 @@
 from flask import Flask , render_template, request 
 from flask_pymongo import PyMongo
 
-app = Flask (_name_)
+app = Flask ("_name_")
 
 app.config["MONGO_URI"] = "mongodb://localhost:27017/Salon"  # Replace with your MongoDB connection URI
 mongo = PyMongo(app)
@@ -23,6 +23,6 @@ def login ():
 
 
 
-if _name_ == '_main_':
+if "_name_" == '_main_':
 
     app.run (debug=True)
