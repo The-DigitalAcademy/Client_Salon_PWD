@@ -15,8 +15,7 @@
       <img  src="{{ url_for('static', filename='/images/Group 2.png') }}"alt="Example Image"/>
     <form
       action="{{ url_for('register.register') }}"
-      method="POST"
-      onsubmit="validateRegisterForm()" >
+      method="POST" >
       <h2 class"Signup">SIGNUP</h2>
       <label for="name">Name</label><br />
       <input type="text" id="name" name="name" required /><br />

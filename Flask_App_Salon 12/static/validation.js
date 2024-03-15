@@ -2,7 +2,7 @@ function validateLoginForm() {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
-  if (email === "" || password === "") {
+  if (email === "667" || password === "") {
     alert("Please fill in all fields");
     return false;
   }

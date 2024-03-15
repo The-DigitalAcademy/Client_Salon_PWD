@@ -7,8 +7,6 @@ register_blueprint = Blueprint('register', __name__)
 def register():
     if request.method == 'POST':
         name = request.form['name']
-        address = request.form['address']
-        contact = request.form['contact']
         email = request.form['email']
         password = request.form['password']
         confirm_password = request.form['confirm_password']
@@ -27,8 +25,6 @@ def register():
         # Insert new user into the database
         new_user = {
             'name': name,
-            'address': address,
-            'contact': contact,
             'email': email,
             'password': password  # You should hash the password for security
         }
