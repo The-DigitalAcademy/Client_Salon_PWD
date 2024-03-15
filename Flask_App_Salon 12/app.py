@@ -13,6 +13,7 @@ init_db(app)
 app.register_blueprint(login_blueprint)
 app.register_blueprint(register_blueprint)
 
+
 @app.route('/')
 def landing():
     user_email = session.get('email')
