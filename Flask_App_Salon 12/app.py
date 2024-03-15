@@ -1,6 +1,7 @@
 from flask import Flask, render_template, session
 from login import login_blueprint
 from register import register_blueprint
+from Hair import hair_blueprint
 from DB import init_db
 
 app = Flask(__name__, static_url_path='/static')
@@ -12,6 +13,8 @@ init_db(app)
 # Register blueprints
 app.register_blueprint(login_blueprint)
 app.register_blueprint(register_blueprint)
+app.register_blueprint(hair_blueprint)
+
 
 
 @app.route('/')
@@ -21,3 +24,8 @@ def landing():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+    
+    
+    
+    
