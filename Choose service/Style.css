@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 200px;
+    max-width: 100px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f8f4ef;
@@ -109,7 +109,7 @@ img{
     gap: 0.5px;
 }
 
-.Card > p{
+.button-text > p{
     position: relative;
     left: 85%;
     top: -90%;
@@ -125,7 +125,7 @@ img{
 }
 
 button{
-    height: 150px;
+    height: 90px;
     width: 600px;
     background-color: 837C6A;
     position: relative;
