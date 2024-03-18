@@ -87,9 +87,10 @@ img{
         align-items: center;
         width: 250px;
         padding: 20px;
-        height: 15px;
+        height: 17px;
         opacity: .7;
         padding-right: 20px;
+        background-color: B3B3B3;
       }
 
     
