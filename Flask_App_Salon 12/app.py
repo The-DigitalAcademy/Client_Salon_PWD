@@ -2,6 +2,7 @@ from flask import Flask, render_template, session
 from login import login_blueprint
 from register import register_blueprint
 from Hair import hair_blueprint
+from nails import nails_blueprint
 from DB import init_db
 
 app = Flask(__name__, static_url_path='/static')
@@ -14,6 +15,7 @@ init_db(app)
 app.register_blueprint(login_blueprint)
 app.register_blueprint(register_blueprint)
 app.register_blueprint(hair_blueprint)
+app.register_blueprint(nails_blueprint)
 
 
 
