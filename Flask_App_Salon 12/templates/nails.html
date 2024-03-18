@@ -53,7 +53,7 @@
           <div>Nails</div>
         </div>
 
-        <div class="item">
+        <div class="item" onclick="goToNextPage('spar')">
           <img
             src="{{ url_for('static', filename='/images/Spa.png') }}"
             alt="Example Image"
@@ -108,17 +108,12 @@
         
   
     <script>
-      function goToNextPage(nails) {
+      function goToNextPage(spar) {
         // Replace the URL "/next-page" with the actual URL or route of the next page
-        window.location.href = "http://127.0.0.1:5000/nails" + encodeURIComponent(nails);
-
-        the next page
-        var url = "http://127.0.0.1:5000/nails/" + encodeURIComponent(nails);
-        window.location.href = url;
+        window.location.href = "http://127.0.0.1:5000/" + encodeURIComponent(spar);
       }
     </script>
 
-    <script src="{{ url_for('static', filename='landing.js') }}"></script>
 
   </body>
 </html>
