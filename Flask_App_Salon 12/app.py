@@ -3,6 +3,7 @@ from login import login_blueprint
 from register import register_blueprint
 from Hair import hair_blueprint
 from nails import nails_blueprint
+from facial import facial_blueprint
 from spar import spar_blueprint
 from DB import init_db
 
@@ -18,6 +19,7 @@ app.register_blueprint(register_blueprint)
 app.register_blueprint(hair_blueprint)
 app.register_blueprint(nails_blueprint)
 app.register_blueprint(spar_blueprint)
+app.register_blueprint(facial_blueprint)
 
 
 
