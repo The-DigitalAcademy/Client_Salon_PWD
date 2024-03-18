@@ -16,6 +16,13 @@ body {
     border-radius: 20px;
     margin-top: 150px;
     position: absolute;
+    height: 400px;
+    max-width: 600px;
+    margin-top: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .navbar {
@@ -42,16 +49,23 @@ img{
     margin-left: 10px;
     
 }
-.Container{
-    height: 500px;
-    max-width: 500px;
-    margin-top: 50px;
-    position: fixed;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-      }
 
+      table {
+        /* border-collapse: separate;
+        border-spacing: 10px; */
+
+      }
+     td {
+        padding: 0px;
+        
+
+    
+      } 
+      thead{
+   
+    background-color: blue;
+
+}
 
 
 
