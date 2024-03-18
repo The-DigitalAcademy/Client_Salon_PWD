@@ -20,7 +20,7 @@
     <div class="app">
       <div class="header">
         <nav>
-          <i class="bi bi-chevron-left" onclick="goToLandingPage('')"></i>
+          <i class="bi bi-chevron-left" onclick="goToLandingPage('landing')"></i>
             <img
             src="{{ url_for('static', filename='/images/logo.png') }}"
             alt="Example Image"
@@ -44,6 +44,7 @@
           />
           <div>Hair</div>
         </div>
+
         <div class="item" onclick="goToNextPage('nails')" >
           <img
             src="{{ url_for('static', filename='/images/Nails.png') }}"
@@ -73,31 +74,47 @@
       <div class="category">
         <div class="item">
           <img
-            src="{{ url_for('static', filename='/images/Salon 1 s.png') }}"
+            src="{{ url_for('static', filename='/images/glit & Glamour.png') }}"
             alt="Example Image"
           />
           <div>
-            Sharon Beaty <br />
-            Bar
+            Glit & Glamour <br />
           </div>
         </div>
-        <div class="item"  style"">
+        <div class="item">
           <img
             src="{{ url_for('static', filename='/images/Salon 2 s.png') }}"
             alt="Example Image"
           />
-          <div>Glit & Glamour <br />
-
+          <div>
+            Lumina Skin <br />
+            Care
           </div>
         </div>
+        <div class="item">
+          <img
+            src="{{ url_for('static', filename='/images/bell beaty1.png') }}"
+            alt="Example Image"
+          />
+          <div>Belle Beauty</div>
+        </div>
       </div>
-    </div>
+
+
+        
+  
+   
+
 
 
     <script>
       function goToNextPage(nails) {
         // Replace the URL "/next-page" with the actual URL or route of the next page
-        window.location.href = "http://127.0.0.1:5000/" + encodeURIComponent(nails);
+        window.location.href = "http://127.0.0.1:5000/nails" + encodeURIComponent(nails);
+
+        the next page
+        var url = "http://127.0.0.1:5000/nails/" + encodeURIComponent(nails);
+        window.location.href = url;
       }
     </script>
 
