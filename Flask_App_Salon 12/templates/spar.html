@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../static/spar.css" />
   </head>
 
+  <html>
   <body>
     <div class="app">
       <div class="header">
@@ -37,7 +38,7 @@
         <h3 class="Paragraph1">SELECT A CATEGORY</h3>
       </div>
       <div class="category">
-        <div class="item" onclick="goToNextPage('')">
+        <div class="item">
           <img
             src="{{ url_for('static', filename='/images/scissors.png') }}"
             alt="Example Image"
@@ -45,21 +46,21 @@
           <div>Hair</div>
         </div>
 
-        <div class="item" onclick="goToNextPage('nails')" >
+        <div class="item"  >
           <img
             src="{{ url_for('static', filename='/images/Nails.png') }}"
             alt="Example Image"
           />
           <div>Nails</div>
         </div>
-        <div class="item" onclick="goToNextPage('')">
+        <div class="item" onclick="goToNextPage('spar')">
           <img
             src="{{ url_for('static', filename='/images/Spa.png') }}"
             alt="Example Image"
           />
           <div>Spar</div>
         </div>
-        <div class="item" onclick="goToNextPage('')">
+        <div class="item">
           <img
             src="{{ url_for('static', filename='/images/FACIAL.png') }}"
             alt="Example Image"
@@ -99,3 +100,28 @@
           <div>Belle Beauty</div>
         </div>
       </div>
+
+      <div class="category">
+        <div class="item">
+          <img
+            src="{{ url_for('static', filename='/images/Enchant 11.png') }}"
+            alt="Example Image"
+          />
+          <div>Enchant Spa</div>
+        </div>
+
+      
+
+    <script>
+      function goToNextPage(spar) {
+        // Replace the URL "/next-page" with the actual URL or route of the next page
+        window.location.href = "http://127.0.0.1:5000/spar" + encodeURIComponent(spar);
+
+        the next page
+        var url = "http://127.0.0.1:5000/spar" + encodeURIComponent(spar);
+        window.location.href = url;
+      }
+    </script>
+
+  </body>
+</html>
