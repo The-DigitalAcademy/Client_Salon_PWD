@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D1C8BD;
+    margin: 0;
+    padding: 0 auto;
+    height: 80px;
+}
+
+.navbar {
+    background-color: #D9D9D9;
+    height: 80px;
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    /* background-color: #837C6A; */
+    color: #060404;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.image{
+    float: right;
+    margin-top: 40px;
+  margin-right: 50px;
+}
+.icon1{
+    margin-top: 30px;
+    float: left;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.btn{
+    background:#D9D9D9 ;
+    align-content: center;
+}
+
+.image{
+    float: right;
+    margin: 100px;
+  }
+
+  .logo{
+    float: right;
+   margin-right: 30px;
+  }
+
+  .lumina{
+    margin-top: -.10px;
+    height: 100px;
+    width: 100px;
+    margin-left: -10px;
+    margin-right: auto;
+  }
+
+  .form{
+    background-color: rgba(240, 240, 240);
+    height: 80px;
+    /* margin-top: px; */
+    padding: 20px;
+    width: 90px;
+  }
+  .side{
+    vertical-align: middle;
+  }
+
+  
