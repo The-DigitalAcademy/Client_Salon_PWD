@@ -3,6 +3,7 @@ from login import login_blueprint
 from register import register_blueprint
 from Hair import hair_blueprint
 from nails import nails_blueprint
+from spar import spar_blueprint
 from DB import init_db
 
 app = Flask(__name__, static_url_path='/static')
@@ -16,6 +17,7 @@ app.register_blueprint(login_blueprint)
 app.register_blueprint(register_blueprint)
 app.register_blueprint(hair_blueprint)
 app.register_blueprint(nails_blueprint)
+app.register_blueprint(spar_blueprint)
 
 
 
