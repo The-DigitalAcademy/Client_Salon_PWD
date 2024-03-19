@@ -1,5 +1,5 @@
 document.getElementById("nails").onclick = function() {
-    // Add your code here to handle the onclick event
+    // Add id from html here to handle the onclick event
     goToLandingPage(hair_Salon);
   };
   

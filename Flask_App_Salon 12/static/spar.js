@@ -1,10 +1,9 @@
 document.getElementById("spar").onclick = function() {
-    // Add your code here to handle the onclick event
+    // get an element id from html to handle the onclick event
     goToLandingPage(nails);
   };
   
   function goToLandingPage(nails) {
-    // Add your code here to navigate back to the landing page
-    // For example:
+    //  to navigate back to the nails page
     window.location.href = 'http://127.0.0.1:5000/nails'; // Replace 'landing.html' with the actual URL of your landing page
   }
