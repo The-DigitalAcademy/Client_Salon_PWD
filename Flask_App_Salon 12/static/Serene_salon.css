@@ -66,3 +66,7 @@ input[type="submit"] {
     margin-left: 20rem;
 }
 
+.container img{
+    width: 150px;
+    height: 150px;
+}
