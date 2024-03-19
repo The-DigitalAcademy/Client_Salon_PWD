@@ -1,6 +1,6 @@
 document.getElementById("spar").onclick = function() {
     // get an element id from html to handle the onclick event
-    goToLandingPage(nails);
+    goToLandingPage(spar);
   };
   
   function goToLandingPage(nails) {
