@@ -1,6 +1,6 @@
 
   
-  document.getElementById("facial").onclick = function() {
+  document.getElementById("nails").onclick = function() {
     // Add id from html here to handle the onclick event
     goToLandingPage(spar);
   };
