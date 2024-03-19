@@ -21,7 +21,7 @@
     <div class="app">
       <div class="header">
         <nav>
-          <i class="bi bi-chevron-left" onclick="goToLandingPage('landing')"></i>
+          <i id"spar" class="bi bi-chevron-left" onclick="goToLandingPage('')"></i>
             <img
             src="{{ url_for('static', filename='/images/logo.png') }}"
             alt="Example Image"
@@ -122,6 +122,8 @@
         window.location.href = url;
       }
     </script>
+
+    <script src="{{ url_for('static', filename='spar.js') }}"></script>
 
   </body>
 </html>
