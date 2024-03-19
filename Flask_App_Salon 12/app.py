@@ -10,6 +10,7 @@ from forgot_password import forgot_password_blueprint
 from Lumina_salon import Lumina_salon_blueprint
 from Sharon_salon import Sharon_salon_blueprint
 from Enchant_spar import Enchant_spar_blueprint
+from Serene_salon import Serene_salon_blueprint
 from DB import init_db
 
 
@@ -31,6 +32,7 @@ app.register_blueprint(Glit_glamour_blueprint)
 app.register_blueprint(Lumina_salon_blueprint)
 app.register_blueprint(Sharon_salon_blueprint)
 app.register_blueprint(Enchant_spar_blueprint)
+app.register_blueprint(Serene_salon_blueprint)
 
 
 
