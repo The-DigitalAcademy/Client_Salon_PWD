@@ -5,6 +5,7 @@ from Hair import hair_blueprint
 from nails import nails_blueprint
 from facial import facial_blueprint
 from spar import spar_blueprint
+from forgot_password import forgot_password_blueprint
 from DB import init_db
 
 app = Flask(__name__, static_url_path='/static')
@@ -20,6 +21,7 @@ app.register_blueprint(hair_blueprint)
 app.register_blueprint(nails_blueprint)
 app.register_blueprint(spar_blueprint)
 app.register_blueprint(facial_blueprint)
+app.register_blueprint(forgot_password_blueprint)
 
 
 
