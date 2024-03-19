@@ -7,6 +7,7 @@ from facial import facial_blueprint
 from spar import spar_blueprint
 from Glit_glamour import Glit_glamour_blueprint
 from forgot_password import forgot_password_blueprint
+from Lumina_salon import Lumina_salon_blueprint
 from DB import init_db
 
 
@@ -25,6 +26,7 @@ app.register_blueprint(spar_blueprint)
 app.register_blueprint(facial_blueprint)
 app.register_blueprint(forgot_password_blueprint)
 app.register_blueprint(Glit_glamour_blueprint)
+app.register_blueprint(Lumina_salon_blueprint)
 
 
 
