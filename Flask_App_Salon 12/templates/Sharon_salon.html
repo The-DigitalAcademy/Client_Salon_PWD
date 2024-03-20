@@ -15,7 +15,7 @@
         <div>
             <nav class="navbar"> 
                 <img  src="{{ url_for('static', filename='/images/Group 2.png') }}"alt="Example Image"/>
-                <i class="bi bi-chevron-left" onclick="goToLandingPage('landing')"></i>
+                <i id "landing" class="bi bi-chevron-left" onclick="goToLandingPage('landing')"></i>
                    
               
               </nav>
@@ -26,20 +26,18 @@
                 <center><h3 class="header3">SHARON'S BEAUTY BAR</h3>
                 <h3 class="header3">Magwa,Cres, Midrand 2066</h3>
                 <h3 class="header3">Johannesburg</h3>
-                <input type="submit" value="View more"></center>
+                <center>
+                  <input id="button" type="submit" value="View more" onclick="goToLandingPage('Services_sharon')">
+                
+                </center>
                 
               </div>
               
             </div>
-
-            <script>
-                function goToNextPage(landing) {
-                  // Replace the URL "/next-page" with the actual URL or route of the next page
-                  window.location.href = "http://127.0.0.1:5000/" + encodeURIComponent(landing);
-                  
-                }
-              </script>
-       
-            <script src="{{ url_for('static', filename='icon.js') }}"></script>
+ 
+          
+            <script src="{{ url_for('static', filename='sharon_salon.js') }}"></script>
+            <script src="{{ url_for('static', filename='Service_salon.js') }}"></script>
+           
     </body>
 </html>

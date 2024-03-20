@@ -12,6 +12,7 @@ from Sharon_salon import Sharon_salon_blueprint
 from Enchant_spar import Enchant_spar_blueprint
 from Serene_salon import Serene_salon_blueprint
 from Belle_salon import Belle_salon_blueprint
+from Services_sharon import Services_sharon_blueprint
 from DB import init_db
 
 
@@ -35,6 +36,7 @@ app.register_blueprint(Sharon_salon_blueprint)
 app.register_blueprint(Enchant_spar_blueprint)
 app.register_blueprint(Serene_salon_blueprint)
 app.register_blueprint(Belle_salon_blueprint)
+app.register_blueprint(Services_sharon_blueprint)
 
 
 
