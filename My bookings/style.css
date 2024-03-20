@@ -7,15 +7,16 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+    margin: 100px;
     padding: 20px;
     background-color: #D1C8BD;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    margin-top: 150px;
-    width: 340px;
+    width: 370px;
     height: 400px;
     margin-top: 50px;
+    margin-right: -60px;
+
 }
 
 .navbar {
@@ -25,23 +26,23 @@ body {
     display:inline-block;
     vertical-align: center;
 }
-.icon-container {
+/* .icon-container {
     width: 100px;  
     height: 70px; 
     color: rgb(12, 12, 12);   
     position: relative;
     margin-top: -10px;
     margin-right: 100px;
-  }
+  } */
   
 
 
-img{
+/* img{
     margin-right: -310px;
     margin-top: -dcfdvcf115px;
     margin-left: 10px;
     
-}
+} */
 
       table {
         
@@ -65,6 +66,15 @@ img{
     }
     .logo{
      float: right;
+     position: relative;
+     padding-right: 0%;
+     margin-left: -60px;
+     margin-right: 35px;
+     margin-top: 20px;
+
+
+  
+
      }
 
      .text-container {
@@ -92,6 +102,11 @@ img{
         padding-right: 20px;
         background-color: B3B3B3;
       }
+      .date{
+        margin: -150px;
+        margin-left: -160px;
+      }
+      
 
     
 
