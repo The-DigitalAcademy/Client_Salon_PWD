@@ -140,8 +140,12 @@ nav button {
 img:hover {
     background-color: var(--brown);
     opacity: .6;
+    border: var(--brown) solid 20px;
+    color: var(--brown);
    
   }
+
+  
 
 
   
