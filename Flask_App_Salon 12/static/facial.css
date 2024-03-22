@@ -91,3 +91,10 @@ nav i {
     margin-top: 20px;
     text-align: center;
 }
+
+
+img:hover {
+    background-color: var(--brown);
+    opacity: .6;
+   
+  }

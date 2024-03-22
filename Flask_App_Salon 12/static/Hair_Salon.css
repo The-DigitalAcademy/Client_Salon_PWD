@@ -92,3 +92,10 @@ nav i {
     text-align: center;
 }
 
+
+
+img:hover {
+    background-color: var(--brown);
+    opacity: .6;
+   
+  }
