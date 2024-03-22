@@ -99,5 +99,5 @@ img:hover {
     opacity: .6;
     border: var(--brown) solid 20px;
     color: var(--brown);
-   
+    transform: scale(1.1);
   }
