@@ -8,6 +8,8 @@ def register():
     if request.method == 'POST':
         name = request.form['name']
         email = request.form['email']
+        contact = request.form.get('contact')
+        Gender = request.form['Gender']
         password = request.form['password']
         confirm_password = request.form['confirm_password']
 
@@ -26,6 +28,8 @@ def register():
         new_user = {
             'name': name,
             'email': email,
+            'contact': contact,
+            'Gender': Gender,
             'password': password  # You should hash the password for security
         }
         mongo.db.users.insert_one(new_user)

@@ -32,14 +32,14 @@ function validateLoginForm() {
 function validateRegisterForm() {
   const email = document.getElementById("email").value;
   const name = document.getElementById("name").value;
-  const address = document.getElementById("address").value;
   const contact = document.getElementById("contact").value;
+  const Gender = document.getElementById("Gender").value;
   const password = document.getElementById("password").value;
   const confirm_password = document.getElementById("confirm_password").value;
 
   if (
     name === "" ||
-    address === "" ||
+    Gender === "" ||
     contact === "" ||
     email === "" ||
     password === "" ||
