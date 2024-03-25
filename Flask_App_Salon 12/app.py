@@ -4,7 +4,7 @@ from register import register_blueprint
 from Hair import hair_blueprint
 from nails import nails_blueprint
 from facial import facial_blueprint
-from spar import spar_blueprint
+from spar import spar1_blueprint
 from Glit_glamour import Glit_glamour_blueprint
 from forgot_password import forgot_password_blueprint
 from Lumina_salon import Lumina_salon_blueprint
@@ -16,7 +16,10 @@ from Services_sharon import Services_sharon_blueprint
 from Service_lumina import Service_lumina_blueprint
 from Service_enchant import Service_enchant_blueprint
 from enchant_salon import enchant_salon_blueprint
-from Service_serene import Service_serene_blueprint
+from Service_glit import Service_glit_blueprint
+from service_serene import service_serene_blueprint
+
+
 
 from DB import init_db
 
@@ -32,7 +35,7 @@ app.register_blueprint(login_blueprint)
 app.register_blueprint(register_blueprint)
 app.register_blueprint(hair_blueprint)
 app.register_blueprint(nails_blueprint)
-app.register_blueprint(spar_blueprint)
+app.register_blueprint(spar1_blueprint)
 app.register_blueprint(facial_blueprint)
 app.register_blueprint(forgot_password_blueprint)
 app.register_blueprint(Glit_glamour_blueprint)
@@ -45,7 +48,9 @@ app.register_blueprint(Services_sharon_blueprint)
 app.register_blueprint(Service_lumina_blueprint)
 app.register_blueprint(Service_enchant_blueprint)
 app.register_blueprint(enchant_salon_blueprint)
-app.register_blueprint(Service_serene_blueprint)
+app.register_blueprint(Service_glit_blueprint)
+app.register_blueprint(service_serene_blueprint)
+
 
 
 
