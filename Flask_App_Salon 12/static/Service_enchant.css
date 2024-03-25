@@ -35,3 +35,20 @@ margin-bottom: 35px;
     width: 450px;
     margin: 40px;  
 }
+
+.container img{
+    width: 150px;
+    height: 150px;
+}
+
+.navbar img {
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar i{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
