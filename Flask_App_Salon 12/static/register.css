@@ -17,7 +17,7 @@ img {
     margin-top: 20px;
     margin-left: 170px;
     margin-right: auto;
-    width: 60px;
+    width: 50px;
     }
     
 
@@ -41,6 +41,24 @@ form.h2{
 }
 
 input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="contact"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="Gender"]{
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -90,13 +108,15 @@ img{
     background-color: #e1e1e1;
 }
 
-
-
-
 .navbar i {
     margin-right: 5px; /* Add some spacing between the icon and the image */
     font-size: 24px;
     margin-left: 7px;
   }
+
+  
+
+
+  
 
  
