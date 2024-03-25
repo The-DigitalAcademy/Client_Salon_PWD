@@ -47,9 +47,6 @@ app.register_blueprint(enchant_salon_blueprint)
 
 
 
-
-
-
 @app.route('/')
 def landing():
     user_email = session.get('email')
