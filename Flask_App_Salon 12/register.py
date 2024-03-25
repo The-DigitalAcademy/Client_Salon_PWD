@@ -1,6 +1,8 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
-from DB import mongo
+# from DB import mongo
+from flask_pymongo import PyMongo
 
+mongo = PyMongo()
 register_blueprint = Blueprint('register', __name__)
 
 @register_blueprint.route('/register', methods=['GET', 'POST'])
@@ -8,8 +10,6 @@ def register():
     if request.method == 'POST':
         name = request.form['name']
         email = request.form['email']
-        contact = request.form.get('contact')
-        Gender = request.form['Gender']
         password = request.form['password']
         confirm_password = request.form['confirm_password']
 
@@ -28,8 +28,6 @@ def register():
         new_user = {
             'name': name,
             'email': email,
-            'contact': contact,
-            'Gender': Gender,
             'password': password  # You should hash the password for security
         }
         mongo.db.users.insert_one(new_user)
