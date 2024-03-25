@@ -1,10 +1,10 @@
 
-  
- document.getElementById("hair_Salon").onclick = function() {
-  goToLandingPage('landing');
+document.getElementById("button").onclick = function() {
+  goToServiceSerene('Service_serene');
 };
 
-function goToLandingPage(landing) {
-  window.location.href = 'http://127.0.0.1:5000/';
+function goToServiceSerene(Service_serene) {
+  window.location.href = 'http://127.0.0.1:5000/Service_serene';
 }
+
 

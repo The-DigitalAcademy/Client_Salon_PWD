@@ -63,11 +63,6 @@ input[type="submit"] {
 
 
 
-.container.header3{
-    margin-right: 20rem;
-    margin-left: 20rem;
-}
-
 .navbar img {
     float: right;
     margin-right: 40px;
@@ -78,4 +73,8 @@ input[type="submit"] {
     font-size: 20px;
     margin-top: 20px;
     margin-left: 10px;
+}
+
+map img{
+   width: 500px;
 }
