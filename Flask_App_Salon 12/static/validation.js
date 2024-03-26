@@ -26,6 +26,7 @@ function validateLoginForm() {
     alert("Password is invalid");
     return false;
   }
+
   return true;
 }
 

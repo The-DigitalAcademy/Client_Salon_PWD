@@ -14,10 +14,11 @@ def login():
         if user:
             # If the user exists, set a session variable to indicate they are logged in
             # Here, you might also want to redirect to a dashboard or profile page
-            flash('Login successful!', 'success')
-            return redirect(url_for('landing'))
+           flash('Login successful!', 'success')
+           return redirect(url_for('landing'))
 
         flash('Invalid email or password. Please try again.', 'error')
         return redirect(url_for('login.login'))
 
+     
     return render_template('login.html')
