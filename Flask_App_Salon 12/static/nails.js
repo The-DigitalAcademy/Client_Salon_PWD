@@ -8,3 +8,5 @@ document.getElementById("nails").onclick = function() {
     // For example:
     window.location.href = 'http://127.0.0.1:5000/hair_salon'; // Replace 'landing.html' with the actual URL of your landing page
   }
+
+

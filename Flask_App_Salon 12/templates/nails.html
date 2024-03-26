@@ -20,7 +20,7 @@
     <div class="app">
       <div class="header">
         <nav>
-          <i id"nails" class="bi bi-chevron-left" onclick="goToLandingPage('Hair')"></i>
+          <i  class="bi bi-chevron-left" onclick="goToLandingPage('')"></i>
             <img
             src="{{ url_for('static', filename='/images/logo.png') }}"
             alt="Example Image"
@@ -108,6 +108,8 @@
         
   
     <script>
+     
+  
       function goToNextPage(spar) {
         // Replace the URL "/next-page" with the actual URL or route of the next page
         window.location.href = "http://127.0.0.1:5000/" + encodeURIComponent(spar);
