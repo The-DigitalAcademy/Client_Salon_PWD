@@ -55,14 +55,28 @@ h1 {
 
 
 
-button {
-    width: 100%;
+.custom-button {
+    width: 90%;
+    justify-content: center;
+    display: block;
+    margin-top: 50px;
     padding: 10px;
     margin-bottom: 20px;
-    border: 2px solid #0b0808;
-    border-radius: 4px;
-    background-color: 837C6A;
-}
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #837C6A;
+  }
+  
+  .change-color {
+    background-color: #b3b3b3;
+  }
+
+
+button:hover {
+    background-color: #b3b3b3;
+  }
 
 
 img{
@@ -121,20 +135,28 @@ img{
 }
 
 
-.button container{
-    text-align: center;
-    margin-right: -50px;
-}
 
 
-.navbar img {
+nav img {
     float: right;
-    margin-right: 40px;
+    margin-right: 50px;
+    margin-top: -3.5rem;
+   
 }
 
-.navbar i{
+nav i{
     float: left;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 15px;
     margin-left: 10px;
 }
+
+.centered-heading {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 80px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
