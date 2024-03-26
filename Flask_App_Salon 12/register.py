@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
-# from DB import mongo
+from DB import mongo
 from flask_pymongo import PyMongo
 
-mongo = PyMongo()
+# mongo = PyMongo() 
 register_blueprint = Blueprint('register', __name__)
 
 @register_blueprint.route('/register', methods=['GET', 'POST'])

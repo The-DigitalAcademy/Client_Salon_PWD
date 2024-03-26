@@ -2,6 +2,7 @@ from flask import Flask, render_template, session
 from login import login_blueprint
 from register import register_blueprint
 from Hair import hair_blueprint
+from register import register_blueprint
 from nails import nails_blueprint
 from facial import facial_blueprint
 from spar import spar_blueprint
