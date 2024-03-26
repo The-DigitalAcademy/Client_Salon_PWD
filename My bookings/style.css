@@ -63,6 +63,7 @@ img{
         margin-right: .1rem, .1rem;
         margin-left: .1rem , .1rem;
         background-color: #D1C8BD;
+        margin-top: 10px;
     
     }
     .logo{
@@ -73,16 +74,13 @@ img{
      margin-right: 35px;
      margin-top: 20px;
 
+}
 
-  
-
-     }
-
-      /* .text-container {
+      .text-container {
         display: flex;
         align-items: center;
-        
-      } 
+        } 
+
       .text-container h4 {
         display: flex;
         align-items: center;
@@ -90,10 +88,9 @@ img{
         padding: 20px;
         background-color: rgba(240, 240, 240);
         height: 15px;
-        opacity: .7;
+        opacity: .7p;
         padding-right: 20px;
-        
-      }
+        }
 
       .text-container p{
         display: flex;
@@ -101,10 +98,10 @@ img{
         width: 250px;
         padding: 20px;
         height: 17px;
-        opacity: .70px;
+        opacity: .7;
         padding-right: 20px;
         background-color: B3B3B3;
-      } */
+      }
 
       .date{
         margin: -150px;
@@ -116,9 +113,8 @@ img{
         width: 20px;
         float: right;
         margin-right: -5px;
-      
-        
       }
+
       
       
 
