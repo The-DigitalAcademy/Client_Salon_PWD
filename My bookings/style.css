@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #b10e0e;
+    background-color: #D1C8BD;
     margin: 0;
     padding: 0;
     
@@ -45,7 +45,7 @@ img{
     
 } 
 
-      table {
+      /* table {
         
         border-spacing: 5px;
 
@@ -55,8 +55,8 @@ img{
         
 
     
-      } 
-      thead{
+      }  */
+      /* thead{
         display: flex;
         justify-content: center;
         justify-content: space-between;
@@ -65,7 +65,7 @@ img{
         background-color: #D1C8BD;
         margin-top: 10px;
     
-    }
+    } */
     .logo{
      float: right;
      position: relative;
@@ -76,7 +76,7 @@ img{
 
 }
 
-      .text-container {
+      /* .text-container {
         display: flex;
         align-items: center;
         } 
@@ -90,9 +90,9 @@ img{
         height: 15px;
         opacity: .7p;
         padding-right: 20px;
-        }
+        } */
 
-      .text-container p{
+      /* .text-container p{
         display: flex;
         align-items: center;
         width: 250px;
@@ -101,12 +101,13 @@ img{
         opacity: .7;
         padding-right: 20px;
         background-color: B3B3B3;
-      }
+      } */
 
-      .date{
-        margin: -150px;
-        margin-left: -160px;
-      }
+      /* .date{
+        margin: -10px;
+        margin-left: -10px;
+        justify-content: center center;
+      } */
 
       .icon{
         height: 20px;
@@ -115,6 +116,11 @@ img{
         margin-right: -5px;
       }
 
+      /* Add this CSS */
+    .action-icons img {
+      margin-right: 5px; /* Adjust the margin as per your preference */
+    }
+      
       
       
 
