@@ -13,7 +13,7 @@
    <div>
 
     <nav class="navbar">
-        <i class="bi bi-chevron-left" onclick="goToLandingPage('landing')"></i>
+        <i class="bi bi-chevron-left" onclick="goToLandingPage('Lumina_salon')"></i>
         <img  src="{{ url_for('static', filename='/images/Group 2.png') }}"alt="Example Image"/>
         
        
@@ -52,6 +52,14 @@
         <center><img  style="width: 98%; " src="{{ url_for('static', filename='/images/nails_clean.png') }}"alt="Example Image"/></center>
         <br>
         </div>
+
+
+        <script>
+          function goToLandingPage( ) {
+            // Replace the URL "/landing-page" with the actual URL or route of the landing page
+            window.location.href = "http://127.0.0.1:5000/Lumina_salon";
+          }
+        </script>
  
     </body>
       
