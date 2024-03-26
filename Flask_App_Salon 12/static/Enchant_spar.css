@@ -200,12 +200,13 @@ margin-bottom: 35px;
 
 .navbar img {
     float: right;
-    margin-right: 40px;
+    margin-top: 10px;
+    margin-right: 150px;
 }
 
 .navbar i{
     float: left;
     font-size: 30px;
-    margin-top: 4px;
+    margin-top: 25px;
     margin-left: 10px;
 }

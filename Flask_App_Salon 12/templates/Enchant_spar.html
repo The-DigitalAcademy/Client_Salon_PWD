@@ -16,7 +16,7 @@
    <div>
 
     <nav class="navbar">
-      <i class="bi bi-chevron-left" onclick="goToLandingPage('landing')"></i>
+      <i class="bi bi-chevron-left" onclick="goToLandingPage('enchant_salon')"></i>
       <img  src="{{ url_for('static', filename='/images/Group 2.png') }}"alt="Example Image"/>
 
     </nav>
@@ -55,6 +55,13 @@
              
            </div>
     </body>
+
+    <script>
+      function goToLandingPage( ) {
+        // Replace the URL "/landing-page" with the actual URL or route of the landing page
+        window.location.href = "http://127.0.0.1:5000/enchant_salon";
+      }
+    </script>
     
 </html>
    
