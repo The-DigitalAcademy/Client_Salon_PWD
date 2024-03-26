@@ -15,7 +15,7 @@ img{
 .navbar{
     height: 100px;
     width: 530px;
-    background-color: #e1e1e1;
+    background-color: #c3c3c3;
 }
 
 
@@ -64,21 +64,6 @@ margin-right: 19px;
     float: left;
    
   }
-
-  /* .container {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #d9d9d9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 500px;
-    border-radius: 20px;
-    margin-top: 80px;
-    justify-content: baseline;
-    justify-content: center;
-} */
-
-
 
 .container img{
     border-radius: 125px;
