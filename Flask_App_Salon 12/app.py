@@ -27,6 +27,8 @@ from Facial_reflox import Facial_reflox_blueprint
 from Shiatsu_facial import Shiatsu_facial_blueprint
 from choose_body import choose_body_blueprint
 from choose_treatment import choose_treatment_blueprint
+from choose_treatments2 import choose_treatments2_blueprint
+from choose_treatments3 import choose_treatments3_blueprint
 
 
 
@@ -70,6 +72,9 @@ app.register_blueprint(Facial_reflox_blueprint)
 app.register_blueprint(Shiatsu_facial_blueprint)
 app.register_blueprint(choose_body_blueprint)
 app.register_blueprint(choose_treatment_blueprint)
+app.register_blueprint(choose_treatments2_blueprint)
+app.register_blueprint(choose_treatments3_blueprint)
+
 
 
 

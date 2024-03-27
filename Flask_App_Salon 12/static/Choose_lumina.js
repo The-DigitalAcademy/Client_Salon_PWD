@@ -58,3 +58,15 @@
           // Replace the URL "/landing-page" with the actual URL or route of the landing page
          window.location.href = "http://127.0.0.1:5000/choose_treatment";
          }
+
+
+         function goToLandingPage20( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "http://127.0.0.1:5000/choose_treatments2";
+         }
+
+
+         function goToLandingPage21( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "http://127.0.0.1:5000/choose_treatments3";
+         }
