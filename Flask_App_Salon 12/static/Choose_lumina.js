@@ -84,10 +84,10 @@
 
          function goToLandingPage23( ) {
           // Replace the URL "/landing-page" with the actual URL or route of the landing page
-         window.location.href = "http://127.0.0.1:5000/choose_nails1";
+         window.location.href = "http://127.0.0.1:5000/choose_nails2";
          }
 
          function goToLandingPage24( ) {
           // Replace the URL "/landing-page" with the actual URL or route of the landing page
-         window.location.href = "";
+         window.location.href = "http://127.0.0.1:5000/choose_nails3";
          }
