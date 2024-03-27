@@ -33,6 +33,7 @@ from choose_nails import choose_nails_blueprint
 from choose_nails1 import choose_nails1_blueprint
 from choose_nails2 import choose_nails2_blueprint
 from choose_nails3 import choose_nails3_blueprint
+from Calendar import Calendar_blueprint
 
 
 
@@ -82,6 +83,7 @@ app.register_blueprint(choose_nails_blueprint)
 app.register_blueprint(choose_nails1_blueprint)
 app.register_blueprint(choose_nails2_blueprint)
 app.register_blueprint(choose_nails3_blueprint)
+app.register_blueprint(Calendar_blueprint)
 
 
 
