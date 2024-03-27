@@ -30,7 +30,7 @@
 <div class="container text-center">
     <div class="row align-items-end">
       <div class="col">
-        <button type="button" class="btn btn-secondary">Facials</button>
+        <button type="button" class="btn btn-secondary" onclick="goToLandingPage8('choose_facial')">Facials</button>
       </div>
       <div class="col">
         <button type="button" class="btn btn-secondary">Body-Treatment</button>
@@ -45,8 +45,8 @@
         <center><img style="width: 100%; " src="{{ url_for('static', filename='/images/Map.jpeg') }}"></center>
 
          <h2 class="heading 2">INFO</h2><br><br><br><br>
-    <h2>“Lumina skin care is your one stop shop for nails, facials treatment, body treatment. At Lumina we are about holistic wellness. Wholeness in Spirit, Soul & Body.”</h2>
-    <div>
+         <h2>“Lumina skin care is your one stop shop for nails, facials treatment, body treatment. At Lumina we are about holistic wellness. Wholeness in Spirit, Soul & Body.”</h2>
+         <div>
         <center><h1>PORTFOLIO</h1></center>
         <center><img class="hoverable-image"  style="width: 100%; " src="{{ url_for('static', filename='/images/Skin massage.png') }}"alt="Example Image" onclick="goToLandingPage1('Choose_lumina')"/></center><br>
         <center><img  class="hoverable-image" style="width: 98%; " src="{{ url_for('static', filename='/images/nails_clean.png') }}"alt="Example Image" /></center>
