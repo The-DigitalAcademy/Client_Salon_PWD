@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet"href="{{ url_for('static', filename='Choose_lumina.css') }}"> 
+  <link rel="stylesheet"href="{{ url_for('static', filename='choose_nails.css') }}"> 
  
 </head>
 
@@ -23,38 +23,30 @@
     <div>
       <!-- navbar -->
       <nav class="navbar"><br>
-        <i class="bi bi-chevron-left" onclick="goToLandingPage4('Service_lumina')"></i>
-        <h3 class="centered-heading">CHOOSE A SERVICE</h3>
+        <i class="bi bi-chevron-left" onclick="goToLandingPage5('')"></i>
+        <h3 class="centered-heading">  CHOOSE  NAILS &nbsp;&nbsp;</h3>
         <img  src="{{ url_for('static', filename='/images/Group 2.png') }}"alt="Example Image"/>
       </nav>
 
 
-        <button id="myButton" class="custom-button" onclick="changeBackgroundColor(white)">
-        <h3>Facial Treatment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R1250</h3 >
-        <h3 style="margin-left: -82px;">Male & Female</h3>
+        <button id="myButton" class="custom-button" onclick="goToLandingPage22('choose_nails1')">
+        <h3> Round-Shaped Nails &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; R300</h3 >
+        <h3 style="margin-left: -250px;"> Female</h3>
 
       </button>
 
-      <button id="myButton" class="custom-button">
-        <h3>Full body massage &nbsp;&nbsp;&nbsp; R850</h3>
-        <h3 style="margin-left: -86px;">Male & Female</h3>
+      <button id="myButton" class="custom-button" onclick="goToLandingPage23('choose_nails2')">
+        <h3>Square-Shaped Nails  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  R250</h3>
+        <h3 style="margin-left: -250px;"> Female</h3>
 
       </button>
 
       <div>
-        <button id="myButton" class="custom-button" onclick="changeBackgroundColor(white)">
-        <h3>Nails  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R450</h3>
-        <h3 style="margin-left: -82px;">Male & Female</h3>
+        <button id="myButton" class="custom-button" onclick="goToLandingPage24('')">
+        <h3> Rounded Square-Shaped Nails  &nbsp;&nbsp;&nbsp;&nbsp; R350</h3>
+        <h3 style="margin-left: -260px;">Female</h3>
 
       </button>
-
-      <script>
-        function goToLandingPage3( ) {
-          // Replace the URL "/landing-page" with the actual URL or route of the landing page
-          window.location.href = "http://127.0.0.1:5000/choose2_lumina";
-        }
-      </script>
-
 
       <script src="{{ url_for('static', filename='Choose_lumina.js') }}"></script>
 </body>

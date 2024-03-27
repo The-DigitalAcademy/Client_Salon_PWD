@@ -29,6 +29,9 @@ from choose_body import choose_body_blueprint
 from choose_treatment import choose_treatment_blueprint
 from choose_treatments2 import choose_treatments2_blueprint
 from choose_treatments3 import choose_treatments3_blueprint
+from choose_nails import choose_nails_blueprint
+from choose_nails1 import choose_nails1_blueprint
+from choose_nails2 import choose_nails2_blueprint
 
 
 
@@ -74,8 +77,9 @@ app.register_blueprint(choose_body_blueprint)
 app.register_blueprint(choose_treatment_blueprint)
 app.register_blueprint(choose_treatments2_blueprint)
 app.register_blueprint(choose_treatments3_blueprint)
-
-
+app.register_blueprint(choose_nails_blueprint)
+app.register_blueprint(choose_nails1_blueprint)
+app.register_blueprint(choose_nails2_blueprint)
 
 
 

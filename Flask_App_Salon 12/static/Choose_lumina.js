@@ -53,6 +53,11 @@
          window.location.href = "http://127.0.0.1:5000/choose_body";
          }
 
+         function goToLandingPage14( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "http://127.0.0.1:5000/choose_nails";
+         }
+
 
          function goToLandingPage19( ) {
           // Replace the URL "/landing-page" with the actual URL or route of the landing page
@@ -69,4 +74,20 @@
          function goToLandingPage21( ) {
           // Replace the URL "/landing-page" with the actual URL or route of the landing page
          window.location.href = "http://127.0.0.1:5000/choose_treatments3";
+         }
+
+
+         function goToLandingPage22( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "http://127.0.0.1:5000/choose_nails1";
+         }
+
+         function goToLandingPage23( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "http://127.0.0.1:5000/choose_nails1";
+         }
+
+         function goToLandingPage24( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "";
          }
