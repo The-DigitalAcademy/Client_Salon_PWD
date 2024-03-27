@@ -23,6 +23,7 @@ from Choose_lumina import Choose_lumina_blueprint
 from choose2_lumina import choose2_lumina_blueprint
 from choose_facial import choose_facial_blueprint
 from Classic_facial import Classic_facial_blueprint
+from Facial_reflox import Facial_reflox_blueprint
 
 
 
@@ -61,6 +62,7 @@ app.register_blueprint(Choose_lumina_blueprint)
 app.register_blueprint(choose2_lumina_blueprint)
 app.register_blueprint(choose_facial_blueprint)
 app.register_blueprint(Classic_facial_blueprint)
+app.register_blueprint(Facial_reflox_blueprint)
 
 
 
