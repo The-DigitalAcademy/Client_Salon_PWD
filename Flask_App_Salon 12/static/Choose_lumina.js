@@ -47,3 +47,14 @@
           // Replace the URL "/landing-page" with the actual URL or route of the landing page
          window.location.href = "http://127.0.0.1:5000/Shiatsu_facial";
          }
+
+         function goToLandingPage13( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "http://127.0.0.1:5000/choose_body";
+         }
+
+
+         function goToLandingPage19( ) {
+          // Replace the URL "/landing-page" with the actual URL or route of the landing page
+         window.location.href = "http://127.0.0.1:5000/choose_treatment";
+         }
